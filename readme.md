@@ -48,7 +48,7 @@ java -cp bin Main
 jar cfm JeuDeLaVie.jar Manifest.txt -C bin .
 
 ### Execution deu Jar
-java -Jar JeuDeLaVie.jar
+java -jar JeuDeLaVie.jar
 
 ## Docker
 
