@@ -1,7 +1,7 @@
 # Jeu de la Vie - Galsen Coding Challenge
 
 Le Jeu de la Vie est un automate cellulaire imaginé par John Conway. Cette implémentation en Java suit une architecture MVC (Modèle-Vue-Contrôleur).
-[![Game of Life]("./JeuDeLaVie.png")]("")
+![Game of Life](JeuDeLaVie.png)
 
 ## Algorithme du Jeu de la Vie : le Jeu de la Vie est un automate cellulaire basé sur des règles simples :
 
