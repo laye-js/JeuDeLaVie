@@ -35,18 +35,16 @@ Le package `Contoller` contient la classe `GameLogic`, qui représente la logiqu
 Assurez-vous d'avoir Java JDK installé sur votre machine.
 
 ```bash
-cd src
-javac -d ../bin controllers/*.java models/*.java views/*.java Main.java
-
+   javac -d bin src/**/*.java
+   javac -d bin -cp bin src/Main.java
 ```
 
 ### Exécution
 
 ```bash
-java -cp ../bin Main
+java -cp bin Main
 ```
 ### Creation du Jar 
-cd ..
 jar cfm JeuDeLaVie.jar Manifest.txt -C bin .
 
 ### Execution deu Jar

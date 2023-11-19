@@ -65,8 +65,8 @@ public class GameLogic {
     public Cellule[][] getGrille() {
         return grille;
     }
-public int getTaille() {
-    return taille;
-}
 
+    public int getTaille() {
+        return taille;
+    }
 }
